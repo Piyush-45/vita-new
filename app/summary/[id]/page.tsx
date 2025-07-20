@@ -19,10 +19,8 @@ const Page = async ({ params }: PageProps) => {
         return notFound() // If summary not found, show 404 page
     }
 
-    // Parse the summary text
-    const parsedSummary = parseAISummary(summary.summaryText)
 
-    console.log(parsedSummary)
+
 
     return (
         <div className="w-full max-w-5xl mx-auto">
