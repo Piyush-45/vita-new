@@ -209,7 +209,7 @@ type PdfSummaryType = {
     summary: string;
     title: string;
     fileName: string;
-    language: "en" | "hi";
+
 };
 
 export async function generatePdfSummary(
@@ -220,7 +220,7 @@ export async function generatePdfSummary(
             };
         }
     ],
-    language: "en" | "hi" = "en"
+
 ) {
     if (!uploadResponse || !uploadResponse[0]) {
         return { success: false, message: "File upload failed", data: null };

@@ -47,6 +47,3 @@ Respond ONLY with the table in markdown format—no extra text, no code fences, 
 };
 
 
-export const generatePdfSummaryFromGroqHindi = () => {
-
-}

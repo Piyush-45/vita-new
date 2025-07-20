@@ -92,7 +92,6 @@ const UploadForm = () => {
                 fileUrl: resp[0].serverData.file.url,
                 fileName: resp[0].serverData.file.name,
                 title: summary.data.title ?? "Untitled",
-                language
             });
         }
 
